@@ -4,14 +4,14 @@ Its highly inspired by dwmblocks, but speeds up the process of executing
 bash scirpts by multithreading the execution. Its written in about 100 Lines of C and is therfor
 easiely understandable and hackable.
 
-### Should you use this over dwmblocks?
-Through the multithreading the cpu load at a time is higher then under
-dwmblocks. This should be kept in mind and if cpu load is important to you
-then you should probably stay with dwmblocks. For everyone else this is way faster then
-dwmblocks and you wont have problems of modules lacking behind or skipping when having
-many fast updating blocks.
-
-One other thing to notice is that this is still lacking a few features over dwmblocks.
+## Should you use this over dwmblocks?
+### Pros
+- all scripts are only limited to the speed of the script / other blocks dont have to wait if a block is slow
+- Can use refreshrate under 1 sec, or 1,5. however you want
+### Cons
+- Not tested on BSD
+- Doesnt have clickability nor kill signal reloads build in yet ( see upcoming )
+- CPU load gets "increased" because all the process are run in parrallel
 
 # Installation
 Clone the repository in a folder of your choice and install by running "make install"
@@ -56,7 +56,7 @@ You should not change the second and third argument, these are used internally.
 After changing safe the file and run `sudo make install`. The changes will take effect on the next restart of dwmstatus.
 
 ## Upcoming
-- Repitiotion time configuration
+- Repitition time configuration
 - Add Support for Updates over kill signals like dwmblocks
 - Add mouse support like dwmblocks
 - Add Support for statusbar elements written in C similar to slstatus and a few other dwm statusbars
