@@ -10,7 +10,6 @@ easiely understandable and hackable.
 - Can use refreshrate under 1 sec, or 1,5. however you want
 - Added ability to hide delimiters if the output of a command is nothing
 ### Cons
-- Not tested on BSD
 - Doesnt have clickability nor kill signal reloads build in yet ( see upcoming )
 - CPU load gets "increased" because all the process are run in parrallel
 
