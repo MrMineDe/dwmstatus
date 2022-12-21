@@ -1,6 +1,6 @@
 # dwmstatus
 A fast extensible script-based dwm status bar.
-Its highly inspired by dwmblocks, but speeds up the process of executing
+Its inspired by dwmblocks, but speeds up the process of executing
 bash scirpts by multithreading the execution. Its written in about 100 Lines of C and is therfor
 easiely understandable and hackable.
 
