@@ -58,6 +58,7 @@ After changing safe the file and run `sudo make install`. The changes will take 
 
 ## Upcoming
 - Repitition time configuration
+- Clean up Makefile, add uninstall, add clean
 - Add Support for Updates over kill signals like dwmblocks
 - Add mouse support like dwmblocks
 - Add Support for statusbar elements written in C similar to slstatus and a few other dwm statusbars
